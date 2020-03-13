@@ -19,7 +19,7 @@ terraform plan -var 'network_name=k8svpc' \
 'machine_name=k8stestinstance' \
 'machine_type=f1-micro' \
 'os_image=debian-cloud/debian-9' \
-'project=modified-ripsaw-267505'
+'project=xxxxx'
 
 ## Destroy resources 
 terraform destroy -refresh=false
